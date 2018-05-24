@@ -1,1 +1,36 @@
 /* Acá va tu código */
+* {
+    background-image: url(../src/img/html-page-background-color-website-web-in-bloodbrothers-me.jpg)
+}
+
+header{
+    text-align: center;
+    font-size: x-large;
+}
+
+h4{
+    background: #749CC0;
+}
+#code{
+    background: #749CC0;
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+.txt-input{
+    width: 100%;
+    height: 100px;
+    content: 60%;
+}
+
+#decode{
+    background: #749CC0;
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+button{
+    float: right;
+}
