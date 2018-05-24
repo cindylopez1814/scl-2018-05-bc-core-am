@@ -1,36 +1,51 @@
 /* Acá va tu código */
-* {
+body {
     background-image: url(../src/img/html-page-background-color-website-web-in-bloodbrothers-me.jpg)
 }
 
 header{
     text-align: center;
     font-size: x-large;
+    margin: 3%;
 }
 
 h4{
-    background: #749CC0;
+    background: #1E4785;
 }
 #code{
-    background: #749CC0;
+    background: #1E4785;
     text-align: center;
-    width: 50%;
+    width: 40%;
     float: left;
+    margin-left: 8%;
+    margin-right: 0.5%; 
+    
 }
 
-.txt-input{
-    width: 100%;
-    height: 100px;
-    content: 60%;
+textarea{
+  background: #8DB0CC; 
 }
 
 #decode{
-    background: #749CC0;
+    background: #1E4785;
     text-align: center;
-    width: 50%;
+    width: 40%;
     float: left;
+    margin-right: 5%;
+    margin-left: 0.5%;
 }
 
 button{
+    font-size: 100%;
     float: right;
+    padding: 2%;
+    width: 25%;
+    background: rgb(68, 65, 87);
+    color:black;
+    margin: 2% 2% 2%; 
 }
+
+p{
+    margin: 10%;
+}
+
