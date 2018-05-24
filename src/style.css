@@ -10,7 +10,7 @@ header{
     text-align: center;
     font-size: x-large;
     margin: 1%;
-    text-shadow: rgb(170, 140, 173) 2px 3px 4px;
+    text-shadow: rgb(185, 160, 160) 2px 3px 4px;
 }
 
 #code{
@@ -62,23 +62,16 @@ p{
 .mnsj{
     display: inline-block;
     width: 35%;
-    color: rgb(28, 28, 71); 
-    border: black solid;
+    color: black;
+    text-align: center;
+    opacity: 0.6;
+    background: #e6cccc;
+    font-size: large;
 }
 
 .encode {
-    font-weight: bold;
-    color: black;
     margin: 2% 3% 1% 10%;
-    opacity: 0.5;
-    background: rgb(113, 161, 123)
 }
-
 .deco {
-    font-weight: bold;
-    color: white;
     margin: 2% 5% 1% 2%;
-    opacity: 0.5;
-    background: rgb(113, 161, 123);
-    
 }
