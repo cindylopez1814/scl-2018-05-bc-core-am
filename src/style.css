@@ -1,20 +1,20 @@
 /* Acá va tu código */
 body {
-    background-image: url(../src/img/html-page-background-color-website-web-in-bloodbrothers-me.jpg)
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../src/img/pexels-photo-327472.jpeg)
 }
 
 header{
     color: aliceblue;
     text-align: center;
     font-size: x-large;
-    margin: 3%;
+    margin: 1%;
+    text-shadow: rgb(170, 140, 173) 2px 3px 4px;
 }
 
-h4{
-    background: #1E4785;
-}
 #code{
-    background: #1E4785;
+    background: radial-gradient(rgb(245, 231, 223),#957560);
     text-align: center;
     width: 40%;
     float: left;
@@ -23,11 +23,12 @@ h4{
 }
 
 textarea{
-  background: #8DB0CC; 
+  opacity: 0.5;  
+  background:  rgb(250, 231, 225); 
 }
 
 #decode{
-    background: #1E4785;
+    background: radial-gradient(rgb(245, 231, 223),#957560);
     text-align: center;
     width: 40%;
     float: left;
@@ -40,14 +41,16 @@ button{
     float: right;
     padding: 2%;
     width: 25%;
-    background: rgb(68, 65, 87);
-    color:black;
+    opacity: 0.5;
+    color: rgb(110, 74, 74);
     margin: 2% 2% 2%; 
+    font-weight: bold; 
+    
 }
 
 button:hover{
-    background: black;
-    color: rgb(68, 65, 87);
+    background: #957560;
+    color: white;
 }
 
 p{
@@ -64,9 +67,18 @@ p{
 }
 
 .encode {
+    font-weight: bold;
+    color: black;
     margin: 2% 3% 1% 10%;
+    opacity: 0.5;
+    background: rgb(113, 161, 123)
 }
 
 .deco {
+    font-weight: bold;
+    color: white;
     margin: 2% 5% 1% 2%;
+    opacity: 0.5;
+    background: rgb(113, 161, 123);
+    
 }
