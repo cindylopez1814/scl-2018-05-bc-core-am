@@ -2,7 +2,8 @@
 body {
     color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(../src/img/pexels-photo-327472.jpeg)
+    background-image: url(../src/img/pexels-photo-327472.jpeg);
+    text-align: center;
 }
 
 header{
@@ -13,6 +14,12 @@ header{
     text-shadow: rgb(185, 160, 160) 2px 3px 4px;
 }
 
+input{
+    font-size: large;
+    opacity: 0.6;
+    background: #ad8265;
+    width: 4%;
+}
 #code{
     background: radial-gradient(rgb(245, 231, 223),#957560);
     text-align: center;
@@ -23,6 +30,7 @@ header{
 }
 
 textarea{
+  margin: 2%;  
   opacity: 0.5;  
   background:  rgb(250, 231, 225); 
 }
@@ -55,23 +63,16 @@ button:hover{
 
 p{
     text-align: center;
-    font-size: larger;
-    margin: 4%;
 }
 
 .mnsj{
     display: inline-block;
-    width: 35%;
+    text-align: center;
+    width: 40%;
     color: black;
     text-align: center;
     opacity: 0.6;
     background: #e6cccc;
     font-size: large;
-}
-
-.encode {
-    margin: 2% 3% 1% 10%;
-}
-.deco {
-    margin: 2% 5% 1% 2%;
+    margin: 1%;
 }

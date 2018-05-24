@@ -11,22 +11,22 @@
   </header>
 
   <!-- Descripcion de la aplicacion -->
-  <p>cifrado cear es:..........</p>
+  <h3> ¿Necesitas mantener tus mensajes en secreto?</h3>
+  <p>A continucion ingresa el numero de espacios a desplazar para codificar tu mensaje.
+    <input type="number" min="1" max="40" placeholder="1">
+  </p>
+  
 
-  <!-- Espacio para codificar -->
+  <!-- Codificar -->
   <section id="code">
-    <h4>¿Cuántos espacios?</h4>
-    <input type="number" min="1" max="40">
     <textarea cols="70" rows="10" placeholder="Ingresa aqui tu mensaje secreto" ></textarea>
     <div>
     <button id="button-cod" >CODIFICAR</button>
     </div>
   </section>
 
-  <!-- Espacio para decodificar -->
+  <!-- Decodificar -->
   <section id="decode">
-    <h4>¿Cuántos espacios?</h4>
-    <input type="number" min="1" max="40">
     <textarea cols="70" rows="10" placeholder="Ingresa aqui tu mensaje secreto" ></textarea>
     <div>
     <button id="button-deco">DECODIFICAR</button>
@@ -35,9 +35,6 @@
   
   <!-- Espacio retorno del mensaje codificado -->
   <section class="mnsj encode" >prueba</section>
-
-  <!-- Espacio retorno mensaje decodificado -->
-  <section class="mnsj deco" >prueba</section>
 
   <div id="root"></div>
 
