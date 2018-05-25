@@ -1,6 +1,6 @@
 /* Acá va tu código */
 body {
-    color: whitesmoke;
+  color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(../src/img/pexels-photo-327472.jpeg);
     text-align: center;
@@ -15,13 +15,13 @@ header{
 }
 
 input{
+    text-align: center;
     font-size: large;
     opacity: 0.6;
-    background: #ad8265;
+    background: #f3f2f1;
     width: 4%;
 }
 #code{
-    background: radial-gradient(rgb(245, 231, 223),#957560);
     text-align: center;
     width: 40%;
     float: left;
@@ -30,13 +30,13 @@ input{
 }
 
 textarea{
-  margin: 2%;  
+  margin: 2% 2% 0%;  
   opacity: 0.5;  
   background:  rgb(250, 231, 225); 
+  resize: none;
 }
 
 #decode{
-    background: radial-gradient(rgb(245, 231, 223),#957560);
     text-align: center;
     width: 40%;
     float: left;
@@ -49,11 +49,10 @@ button{
     float: right;
     padding: 2%;
     width: 25%;
-    opacity: 0.5;
+    opacity: 0.7;
     color: rgb(110, 74, 74);
-    margin: 2% 2% 2%; 
+    margin: 0.02% 2% 2%; 
     font-weight: bold; 
-    
 }
 
 button:hover{
