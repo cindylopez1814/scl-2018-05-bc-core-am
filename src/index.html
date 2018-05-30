@@ -13,13 +13,13 @@
   <!-- Descripcion de la aplicacion -->
   <h3> ¿Necesitas mantener tus mensajes en secreto?</h3>
   <p>A continucion ingresa el numero de espacios que deseas desplazar para codificar tu mensaje.
-    <input type="number" min="1" max="40" placeholder="1">
+    <input id="offset" type="number" min="1" max="40" placeholder="1">
   </p>
   
 
   <!-- Codificar -->
   <section id="code">
-    <textarea cols="70" rows="10" placeholder="Ingresa aqui tu mensaje secreto"></textarea>
+    <textarea id="txt1" cols="70" rows="10" placeholder="Ingresa aqui tu mensaje secreto"></textarea>
     <div>
     <button id="button-cod" >CODIFICAR</button>
     </div>
@@ -27,14 +27,12 @@
 
   <!-- Decodificar -->
   <section id="decode">
-    <textarea cols="70" rows="10" placeholder="Ingresa aqui tu mensaje secreto" ></textarea>
+    <textarea id="txt2" cols="70" rows="10" placeholder="Ingresa aqui tu mensaje secreto" ></textarea>
     <div>
     <button id="button-deco">DECODIFICAR</button>
     </div>
   </section>
   
-  <!-- Espacio retorno del mensaje codificado -->
-  <section class="mnsj encode" >prueba</section>
 
   <div id="root"></div>
 

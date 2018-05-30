@@ -1,7 +1,18 @@
 /* Acá va tu código */
-const alph = [A,B,C,D,E,F,G,H,I,J,K,L,M,Ñ,O,P,Q,R,S,T,U,V,W,X,Y,Z];
 
-for (let i = 0; i < alph.length; i++){
+// Declarar variables
+
+let txtCod = document.getElementById("txt1").value;
+let txtDec = document.getElementById("txt2").value;
+const btnCod = document.getElementById("button-cod");
+const btnDecode= document.getElementById("button-deco");
+const offset = document.getElementById("offset").value;
+const mnsj = document.getElementById ("root");
+
+// Funcionalidad Boton "Codificar"
+  btnCod.addEventListener ("click", () => {
+
+
     
-  
-}
+  });
+

@@ -1,32 +1,30 @@
 /* Acá va tu código */
 body {
   color: whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(../src/img/pexels-photo-327472.jpeg);
-    text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(../src/img/pexels-photo-327472.jpeg);
+  text-align: center;
 }
-
 header{
-    color: aliceblue;
-    text-align: center;
-    font-size: x-large;
-    margin: 1%;
-    text-shadow: rgb(185, 160, 160) 2px 3px 4px;
+  color: aliceblue;
+  text-align: center;
+  font-size: x-large;
+  margin: 1%;
+  text-shadow: rgb(185, 160, 160) 2px 3px 4px;
 }
-
 input{
-    text-align: center;
-    font-size: large;
-    opacity: 0.6;
-    background: #f3f2f1;
-    width: 4%;
+  text-align: center;
+  font-size: large;
+  opacity: 0.6;
+  background: #f3f2f1;
+  width: 4%;
 }
 #code{
-    text-align: center;
-    width: 40%;
-    float: left;
-    margin-left: 8%;
-    margin-right: 0.5%; 
+  text-align: center;
+  width: 40%;
+  float: left;
+  margin-left: 8%;
+  margin-right: 0.5%; 
 }
 
 textarea{
@@ -35,43 +33,38 @@ textarea{
   background:  rgb(250, 231, 225); 
   resize: none;
 }
-
 #decode{
-    text-align: center;
-    width: 40%;
-    float: left;
-    margin-right: 5%;
-    margin-left: 0.5%;
+  text-align: center;
+  width: 40%;
+  float: left;
+  margin-right: 5%;
+  margin-left: 0.5%;
 }
-
 button{
-    font-size: 100%;
-    float: right;
-    padding: 2%;
-    width: 25%;
-    opacity: 0.7;
-    color: rgb(110, 74, 74);
-    margin: 0.02% 2% 2%; 
-    font-weight: bold; 
+  font-size: 100%;
+  float: right;
+  padding: 2%;
+  width: 25%;
+  opacity: 0.7;
+  color: rgb(110, 74, 74);
+  margin: 0.02% 2% 2%; 
+  font-weight: bold; 
 }
-
 button:hover{
-    background: #957560;
-    color: white;
+  background: #957560;
+  color: white;
 }
-
 p{
-    text-align: center;
+  text-align: center;
 }
-
-.mnsj{
-    display: inline-block;
-    text-align: center;
-    width: 40%;
-    color: black;
-    text-align: center;
-    opacity: 0.6;
-    background: #e6cccc;
-    font-size: large;
-    margin: 1%;
+#root{
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+  color: black;
+  text-align: center;
+  opacity: 0.6;
+  background: #e6cccc;
+  font-size: large;
+  margin: 1%;
 }
