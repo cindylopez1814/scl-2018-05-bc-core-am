@@ -6,30 +6,48 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Novix</h1> 
-  </header>
+  <section class="container">
+    <header class="row"> 
+      <h1 class="col-12">Novix</h1> 
+    </header>
   <!-- Descripcion de la aplicacion -->
-  <h3> ¿Necesitas mantener tus mensajes en secreto?</h3>
-  <p>A continucion ingresa el numero de espacios que deseas desplazar para codificar tu mensaje.
-    <input id="offset" type="number" min="1" max="40" placeholder="1">
-  </p>
+    <section class="row">
+      <h3 class="col-12"> ¿Necesitas mantener tus mensajes en secreto?</h3>
+    </section>
+    <section class="row">  
+      <p class="col-12 paragraph">Codigo Cesar es un cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto. </p>
+    </section>
+    <section class="row">
+      <section class="col-12 lista">
+        <h4>Instrucciones para continuar:</h4>
+        <ul>
+          <li>Ingresa el numero de espacios que deseas desplazar para codificar tu mensaje.
+              <input id="offset" type="number" min="1" max="40" placeholder="1">
+          </li>
+          <li>Ingresa en los recuerdo el mensaje de deseas cifrar o descifras segun corresponda</li>
+          <li>Para finalizar presiona el boton que correspnda y encontraras tu mensaje secreto</li>     
+        </ul>
+      </section>  
+    </section>  
   <!-- Codificar -->
-  <section id="code">
-    <textarea id="txt1" cols="70" rows="10" placeholder="Ingresa aqui tu mensaje secreto"></textarea>
-    <div>
-    <button id="button-cod" >CODIFICAR</button>
-    </div>
-  </section>
+    <section class="row">
+      <section class="col-6 section_code">
+        <textarea id="txt1" cols="50" rows="10" placeholder="Ingresa aqui tu mensaje secreto" ></textarea>
+        <section>
+          <button id="button-cod" >CODIFICAR</button>
+        </section>
+      </section>
   <!-- Decodificar -->
-  <section id="decode">
-    <textarea id="txt2" cols="70" rows="10" placeholder="Ingresa aqui tu mensaje secreto" ></textarea>
-    <div>
-    <button id="button-deco">DECODIFICAR</button>
-    </div>
-  </section>
+      <section class="col-6 section_code">
+        <textarea id="txt2" cols="50" rows="10" placeholder="Ingresa aqui tu mensaje secreto" ></textarea>
+        <section>
+          <button id="button-deco">DECODIFICAR</button>
+        </section>  
+      </section>
+    </section>
   <!-- Muestra del mensaje final -->
-  <div id="root"></div>
+    <section id="root" class="row" class="col-12"></section>
+  </section>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>

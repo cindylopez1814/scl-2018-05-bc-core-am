@@ -12,6 +12,9 @@ header{
   margin: 1%;
   text-shadow: rgb(185, 160, 160) 2px 3px 4px;
 }
+.lista {
+  text-align: justify;
+}
 input{
   text-align: center;
   font-size: large;
@@ -19,36 +22,23 @@ input{
   background: #f3f2f1;
   width: 4%;
 }
-#code{
+.section_code{
   text-align: center;
-  width: 40%;
-  float: left;
-  margin-left: 8%;
-  margin-right: 0.5%; 
 }
-
 textarea{
-  margin: 2% 2% 0%;  
   opacity: 0.5;  
   background:  rgb(250, 231, 225); 
   resize: none;
 }
-#decode{
-  text-align: center;
-  width: 40%;
-  float: left;
-  margin-right: 5%;
-  margin-left: 0.5%;
-}
 button{
-  font-size: 100%;
-  float: right;
-  padding: 2%;
-  width: 25%;
+  font-size: 80%;
+  width: 12%;
   opacity: 0.7;
   color: rgb(110, 74, 74);
-  margin: 0.02% 2% 2%; 
   font-weight: bold; 
+  border-radius: 7px;
+  padding: 0.5%;
+  text-align: center;
 }
 button:hover{
   background: #957560;

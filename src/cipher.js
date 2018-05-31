@@ -27,9 +27,13 @@ window.cipher = {
         let codeDec = (asciiDec + 65 - parseInt(offset)) % 26 + 65;
         resultDec += String.fromCharCode(codeDec);
       }
+      // Condicion para mantener espaciado
+      if (asciiDec === 32) {
+        resultCode = String.fromCharCode(32);
+      }
       // String minusculas
       if (asciiDec <= 122 && asciiDec >= 97 ){
-        let codeDec = (asciiDec + parseInt(offset) + 97) % 26 + 97;
+        let codeDec = (asciiDec - parseInt(offset) - 122) % 26  +122;
         resultDec += String.fromCharCode(codeDec);
       }
     }
