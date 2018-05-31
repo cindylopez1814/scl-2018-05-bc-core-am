@@ -11,8 +11,6 @@ const mnsj = document.getElementById ("root");
 
 // Funcionalidad Boton "Codificar"
   btnCod.addEventListener ("click", () => {
-
-
-    
+    mnsj.innerHTML = cipher.encode()
   });
 
