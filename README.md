@@ -8,6 +8,9 @@ El cifrado César es un método de encriptación básico de texto utilizado en l
 
 “N” es el número de posiciones que reemplazará cada letra. "N" solo es conocido por el emisor, y receptor del mensaje para poder descifrarlo.
 
+![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+
+
 ### Ejemplo
 En el caso que se desea encriptar el siguiente texto:
 
@@ -17,7 +20,6 @@ En el caso que se desea encriptar el siguiente texto:
 
 * El resultado final sería: **“FGH”**.  
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
 ## Metodología de Trabajo
 
