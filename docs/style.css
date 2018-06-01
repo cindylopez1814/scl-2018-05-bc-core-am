@@ -2,7 +2,7 @@
 body {
   color: whitesmoke;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url(../src/img/pexels-photo-327472.jpeg); 
+  background-image: url(../docs/img/pexels-photo-327472.jpeg); 
   background-size: cover;
   text-align: center;
 }
@@ -19,7 +19,7 @@ header{
 input{
   text-align: center;
   font-size: large;
-  opacity: 0.6;
+  opacity: 0.7;
   background: #f3f2f1;
   width: 10%;
 }
