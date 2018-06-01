@@ -6,7 +6,8 @@ window.cipher = {
       let ascii = txtCod.charCodeAt (i)
       // Condicion para mantener espaciado
       if (ascii === 32) {
-        resultCode += " ";      }
+        resultCode += " ";
+      }
       // String mayusculas
       if (ascii >= 65 && ascii <= 90) {
         let code = (ascii - 65 + parseInt(offset)) % 26 + 65;
@@ -36,7 +37,7 @@ window.cipher = {
       }    
       // String minusculas
       if (asciiDec <= 122 && asciiDec >= 97 ){
-        let codeDec = (asciiDec - parseInt(offset) - 122) % 26  +122;
+        let codeDec = (asciiDec - parseInt(offset) - 122) % 26 + 122;
         resultDec += String.fromCharCode(codeDec);
       }
     }
