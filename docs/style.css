@@ -1,0 +1,61 @@
+/* Acá va tu código */
+body {
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(../src/img/pexels-photo-327472.jpeg); 
+  background-size: cover;
+  text-align: center;
+}
+header{
+  color: aliceblue;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: rgb(185, 160, 160) 2px 3px 4px;
+}
+.lista {
+  text-align: justify;
+  margin-left: 25%;
+}
+input{
+  text-align: center;
+  font-size: large;
+  opacity: 0.6;
+  background: #f3f2f1;
+  width: 10%;
+}
+.section_code{
+  text-align: center;
+}
+textarea{
+  opacity: 0.5;  
+  background:  rgb(250, 231, 225); 
+  resize: none;
+  font-size: 20px;
+  border: 5px dotted rgb(228, 106, 106);
+}
+button{
+  font-size: 80%;
+  width: 20%;
+  opacity: 0.7;
+  background-color: #6b240e;
+  color: white;
+  font-weight: bold; 
+  border-radius: 7px;
+  padding: 0.5%;
+  text-align: center;
+}
+button:hover{
+  background: #957560;
+  color: white;
+}
+p{
+  text-align: center;
+}
+#root{
+  text-align: center;
+  color: black;
+  opacity: 0.6; 
+  background: #e6cccc;
+  font-size: 30px;
+  padding: 0;
+}

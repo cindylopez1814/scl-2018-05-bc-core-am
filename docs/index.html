@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+  <section class="container">
+    <header class="row"> 
+      <h1 class="col-12">Novix</h1> 
+    </header>
+  <!-- Descripcion de la aplicacion -->
+    <section class="row">
+      <h3 class="col-12"> ¿Necesitas mantener tus mensajes en secreto?</h3>
+    </section>
+    <section class="row">  
+      <p class="col-12 paragraph">Codigo Cesar es un cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto. </p>
+    </section>
+  <!-- Instrucciones de uso -->
+    <section class="row">
+      <section class="col-8 lista">
+        <h4>Instrucciones para continuar:</h4>
+        <ul>
+          <li>Ingresa a continuación el número de espacios que deseas desplazar para codificar tu mensaje 
+              <input id="offset" type="number" min="1" max="40" placeholder="1">
+          </li>
+          <li>Ingresa en los recuadros el mensaje que deseas cifrar o descifrar segun corresponda</li>
+          <li>Para finalizar presiona el boton que corresponda y obtendras tu mensaje secreto</li>     
+        </ul>
+      </section>  
+    </section>  
+  <!-- Codificar -->
+    <section class="row">
+      <section class="col-6 section_code">
+        <textarea id="txt1" cols="35" rows="8" placeholder="Ingresa aqui tu mensaje secreto" ></textarea>
+        <section>
+          <button id="button-cod" >CODIFICAR</button>
+        </section>
+      </section>
+  <!-- Decodificar -->
+      <section class="col-6 section_code">
+        <textarea id="txt2" cols="35" rows="8" placeholder="Ingresa aqui tu mensaje secreto" ></textarea>
+        <section>
+          <button id="button-deco">DECODIFICAR</button>
+        </section>  
+      </section>
+    </section>
+  <!-- Muestra del mensaje final -->
+    <section class="row">
+      <div id="root" class="col-12"></div>
+    </section>
+  </section>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
