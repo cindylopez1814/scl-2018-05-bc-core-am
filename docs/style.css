@@ -1,6 +1,6 @@
 /* Acá va tu código */
 body {
-  color: whitesmoke;
+  color: rgba(245, 245, 245, 0.685);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: url("../docs/img/pexels-photo-327472.jpeg"); 
   background-size: cover;
